@@ -18,7 +18,7 @@
         },
         "expandable-chapters-small":{},
          "editlink": {
-          "base": "https://github.com/lijicheng123/gitbook/edit/master/content",
+          "base": "https://github.com/lijicheng123/gitbook/edit/master",
           "label": "Edit This Page",
           "multilingual": false
         }

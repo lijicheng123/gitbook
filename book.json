@@ -6,7 +6,7 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["github","include-html","tbfed-pagefooter","expandable-chapters-small"],
+    "plugins": ["github","include-html","tbfed-pagefooter","expandable-chapters-small","editlink"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/lijicheng123/gitbook.git"
@@ -16,6 +16,11 @@
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
-        "expandable-chapters-small":{}
+        "expandable-chapters-small":{},
+         "editlink": {
+          "base": "https://github.com/lijicheng123/gitbook/edit/master/content",
+          "label": "Edit This Page",
+          "multilingual": false
+        }
      }    
 }

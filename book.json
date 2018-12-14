@@ -17,6 +17,15 @@
     "splitter",//分隔线允许拖动
     ],
     "pluginsConfig": {
+    "favicon": {
+            "shortcut": "assets/images/favicon.png",
+            "bookmark": "assets/images/favicon.png",
+            "appleTouch": "assets/images/favicon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        },
         "github": {
             "url": "https://github.com/lijicheng123/gitbook.git"
         },

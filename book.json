@@ -6,10 +6,14 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["github"],
+    "plugins": ["github","custom-html"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/lijicheng123/gitbook.git"
-        }
+        },
+        "customHTML": {
+	    	"js": "js/my.js",
+	    	"toURL": "../../mydir"
+	    }
      }    
 }

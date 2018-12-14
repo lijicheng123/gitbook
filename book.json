@@ -1,4 +1,19 @@
 {
+"title": "最美文档",
+    "description": "技术文档的最佳实践",
+    "author": "lijicheng",
+    "output.name": "doc",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "links": {
+        "sidebar": {
+            "Home": "http://www.zhangjikai.com"
+        }
+    },
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",

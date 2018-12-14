@@ -14,10 +14,10 @@
     "expandable-chapters-small",
     "editlink",
     "copy-code-button",
-    "splitter",//分隔线允许拖动
+    "splitter"//分隔线允许拖动
     ],
     "pluginsConfig": {
-    "favicon": {
+        "favicon": {
             "shortcut": "assets/images/favicon.png",
             "bookmark": "assets/images/favicon.png",
             "appleTouch": "assets/images/favicon.png",

@@ -1,12 +1,12 @@
 {
-"title": "最美文档",
+    "title": "最美文档",
     "description": "技术文档的最佳实践",
     "author": "lijicheng",
     "output.name": "doc",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "structure": {
-        "readme": "introduction.md"
+        "readme": "README.md"
     },
     "links": {
         "sidebar": {

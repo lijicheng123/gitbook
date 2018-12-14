@@ -6,7 +6,15 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["github","include-html","tbfed-pagefooter","expandable-chapters-small","editlink"],
+    "plugins": [
+    "github",
+    "include-html",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "editlink",
+    "copy-code-button",
+    "splitter",//分隔线允许拖动
+    ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/lijicheng123/gitbook.git"

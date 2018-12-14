@@ -8,10 +8,10 @@
      },
 
 
-    "plugins": ["myplugin"],
+    "plugins": ["github"],
     "pluginsConfig": {
-        "myPlugin": {
-            "message": "Hello World"
+        "github": {
+        "url": https://github.com/lijicheng123/gitbook.git"
         }
      }    
 }

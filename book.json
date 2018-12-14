@@ -6,7 +6,7 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["github","include-html","tbfed-pagefooter"],
+    "plugins": ["github","include-html","tbfed-pagefooter","expandable-chapters-small"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/lijicheng123/gitbook.git"

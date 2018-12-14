@@ -1,3 +1,3 @@
 module.exports = function($) {
-	return $.html();
+	return '<div>自定义HTML</div>';
 }

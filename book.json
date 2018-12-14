@@ -14,7 +14,7 @@
     "expandable-chapters-small",
     "editlink",
     "copy-code-button",
-    "splitter"//分隔线允许拖动
+    "splitter"
     ],
     "pluginsConfig": {
         "favicon": {

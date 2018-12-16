@@ -2,10 +2,10 @@
 
 ## web前端
 
-* [Introduction](README.md)
-* 小程序
-  * [小程序登录](/小程序/小程序登录.md)
-    * 云开发方式
+1. [Introduction](README.md)
+2. 小程序
+   * [小程序登录](/小程序/小程序登录.md)
+     * 云开发方式
 
 ---
 

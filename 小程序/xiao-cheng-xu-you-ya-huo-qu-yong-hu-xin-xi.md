@@ -95,7 +95,7 @@ getUserInfo(e){
                         // let result = res.result
                         let unionid = result.unionid
                         let session_key = result.session_key
-                        
+
                         if(util.checkUnionid(unionid)){
                             wx.setStorageSync('unionid', unionid)
 
@@ -105,14 +105,14 @@ getUserInfo(e){
                             _this.getEncrypt(session_key,(result)=>{
                                 let unionid = result.result.data.unionId
                                 wx.setStorageSync('unionid', unionid)
-                                
+
                                 //拿到unionid后开始调用方法
                                 _this.toAuthentication()
                                 // console.log('解密后的数据为：',result)
                             })
                         }
-                        
-                        
+
+
                     }
                 })
             }
@@ -175,7 +175,7 @@ WXBizDataCrypt.prototype.decryptData = function (encryptedData, iv) {
     decipher.setAutoPadding(true)
     var decoded = decipher.update(encryptedData, 'binary', 'utf8')
     decoded += decipher.final('utf8')
-    
+
     decoded = JSON.parse(decoded)
 
   } catch (err) {
@@ -203,7 +203,7 @@ exports.main = async (event,context) => {
         data:{}
     })
     var appId =  res.result.appid
-    
+
     let {
         iv,
         sessionKey,
@@ -213,7 +213,7 @@ exports.main = async (event,context) => {
     var pc = new WXBizDataCrypt(appId, sessionKey)
 
     var data = pc.decryptData(encryptedData , iv)
-    
+
     return {
         code:0,
         data:data

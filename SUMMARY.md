@@ -13,4 +13,6 @@
 ## gitbook使用说明
 
 * [快速开始](gitbookshi-yong-shuo-ming/kuai-su-kai-shi.md)
+* [输出pdf](shu-chu-pdf.md)
+* [自建服务器部署](gitbookshi-yong-shuo-ming/zi-jian-fu-wu-qi-bu-shu.md)
 

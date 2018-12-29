@@ -28,7 +28,8 @@
     "expandable-chapters-small",
     "editlink",
     "copy-code-button",
-    "splitter"
+    "splitter",
+    "multipart"
     ],
     "pluginsConfig": {
         "favicon": {

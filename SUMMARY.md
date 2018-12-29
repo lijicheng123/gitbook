@@ -10,3 +10,7 @@
 * [公众号](gong-zhong-hao.md)
   * [华为云迁移](hua-wei-yun-qian-yi.md)
 
+## gitbook使用说明
+
+* [快速开始](gitbookshi-yong-shuo-ming/kuai-su-kai-shi.md)
+
